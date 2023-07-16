@@ -3,13 +3,20 @@
 * Work like a charm with kernel >= 6.1
 * Edit ssdt-csc3551.dsl if needed 
 * Build it
+  
 ```iasl -tc ssdt-csc3551.dsl```
+
 * Copy it in /boot
+
 ```sudo cp -f ssdt-csc3551.aml /boot```
+
 * Copy grub script
+  
 ```sudo cp -f 01_acpi /etc/grub.d```
 ```sudo chmod +x /etc/grub.d/01_acpi```
+
 * Update grub config
+
 ```sudo update-grub```
 
 ### References
@@ -22,5 +29,6 @@
 ## Numppad
 * Check https://github.com/mohamed-badaoui/asus-touchpad-numpad-driver
 * Use 'm433ia' Model/Layout
-* Edit asus_touchpad.py
-  brightness: int = 0 -> 2
+* Edit 'asus_touchpad.py'
+
+  ```brightness: int = 0``` to ```brightness: int = 2``` 
