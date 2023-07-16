@@ -4,20 +4,20 @@
 * Edit ssdt-csc3551.dsl if needed 
 * Build it
   
-```iasl -tc ssdt-csc3551.dsl```
+  ```iasl -tc ssdt-csc3551.dsl```
 
 * Copy it in /boot
 
-```sudo cp -f ssdt-csc3551.aml /boot```
+  ```sudo cp -f ssdt-csc3551.aml /boot```
 
 * Copy grub script
   
-```sudo cp -f 01_acpi /etc/grub.d```
-```sudo chmod +x /etc/grub.d/01_acpi```
+  ```sudo cp -f 01_acpi /etc/grub.d```
+  ```sudo chmod +x /etc/grub.d/01_acpi```
 
 * Update grub config
 
-```sudo update-grub```
+  ```sudo update-grub```
 
 ### References
 * https://wiki.archlinux.org/title/ASUS_Zenbook_UM3402YA
