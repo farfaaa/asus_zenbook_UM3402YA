@@ -1,6 +1,6 @@
 # asus_zenbook_UM3402YA
 ## Sound fix 
-* Work like a charm with kernel >= 6.1
+* Work like a charm with kernel >= 6.2
 * Edit ssdt-csc3551.dsl if needed 
 * Build it
   
