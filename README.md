@@ -13,6 +13,7 @@
 * Copy grub script
   
   ```sudo cp -f 01_acpi /etc/grub.d```
+  
   ```sudo chmod +x /etc/grub.d/01_acpi```
 
 * Update grub config
