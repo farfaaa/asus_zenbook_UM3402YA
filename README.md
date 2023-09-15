@@ -16,9 +16,16 @@
   
   ```sudo chmod +x /etc/grub.d/01_acpi```
 
-* Update grub config
+* Update grub config (non-Fedora/RHEL distributions)
 
   ```sudo update-grub```
+
+* Update grub config (for Fedora / RHEL-based distributions)
+Run both commands below.
+
+  ```sudo grub2-mkconfig -o /etc/grub2.cfg```
+
+  ```sudo grub2-mkconfig -o /etc/grub2-efi.cfg```
 
 ### References
 * https://wiki.archlinux.org/title/ASUS_Zenbook_UM3402YA
@@ -32,4 +39,5 @@
 * Use 'm433ia' Model/Layout
 * Edit 'asus_touchpad.py'
 
-  ```brightness: int = 0``` to ```brightness: int = 2``` 
+  ```brightness: int = 0``` to ```brightness: int = 2```
+  
