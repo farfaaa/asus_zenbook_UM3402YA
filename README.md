@@ -16,16 +16,20 @@
   
   ```sudo chmod +x /etc/grub.d/01_acpi```
 
-* Update grub config (non-Fedora/RHEL distributions)
+* Update grub config
+  * Debian / Ubuntu based distributions
 
-  ```sudo update-grub```
+    ```sudo update-grub```
 
-* Update grub config (for Fedora / RHEL-based distributions)
-Run both commands below.
+  * Fedora / RHEL-based distributions ( thanks @effepi0 )
 
-  ```sudo grub2-mkconfig -o /etc/grub2.cfg```
+    ```sudo grub2-mkconfig -o /etc/grub2.cfg```
 
-  ```sudo grub2-mkconfig -o /etc/grub2-efi.cfg```
+    ```sudo grub2-mkconfig -o /etc/grub2-efi.cfg```
+
+  * Arch based distributions ( thanks @kelna )
+
+    ```grub-mkconfig -o /boot/grub/grub.cfg```
 
 ### References
 * https://wiki.archlinux.org/title/ASUS_Zenbook_UM3402YA
