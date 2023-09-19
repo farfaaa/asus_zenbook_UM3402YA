@@ -4,11 +4,11 @@
 * Edit ssdt-csc3551.dsl if needed 
 * Build it
   
-  ```iasl -tc ssdt-csc3551.dsl```
+  ```iasl -tc ssdt_csc3551.dsl```
 
 * Copy it in /boot
 
-  ```sudo cp -f ssdt-csc3551.aml /boot```
+  ```sudo cp -f ssdt_csc3551.aml /boot```
 
 * Copy grub script
   
