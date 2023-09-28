@@ -44,4 +44,8 @@
 * Edit 'asus_touchpad.py'
 
   ```brightness: int = 0``` to ```brightness: int = 2```
+
+## Stylus Pen
+* Check https://github.com/asus-linux-drivers/asus-stylus-driver
+* Edit SA201H.py for customization
   
