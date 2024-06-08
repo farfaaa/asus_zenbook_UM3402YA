@@ -1,6 +1,6 @@
 # Asus zenbook UM3402YA on Linux
 ## Sound fix 
-**_Note:_** This is irrevelant for kernel >= 6.8
+**_Note:_** This is irrelevant for kernel >= 6.8
 * Work like a charm with kernel >= 6.2
 * Edit ssdt-csc3551.dsl if needed 
 * Build it
